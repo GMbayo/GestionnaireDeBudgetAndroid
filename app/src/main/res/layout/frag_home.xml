@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/home_frag_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TableLayout
+            android:id="@+id/HomeTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TableRow
+                android:id="@+id/HomeTable_firstRow"
+                android:background="@color/colorTitleRow">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:text="Date" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:text="Personne" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:text="Catégorie" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:text="Type" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:text="Débit" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Crédit" />
+            </TableRow>
+        </TableLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

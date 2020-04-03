@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "95802088677",
+    "firebase_url": "https://homoma-863d2.firebaseio.com",
+    "project_id": "homoma-863d2",
+    "storage_bucket": "homoma-863d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95802088677:android:b4da294c755f8c8cc5080c",
+        "android_client_info": {
+          "package_name": "com.example.homoma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95802088677-njhc39kajk3tk6bcfd56gmmpjsllsd57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmylVEzNoPjw3enGaxwDOJ1KnyqR-qCAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95802088677-njhc39kajk3tk6bcfd56gmmpjsllsd57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
