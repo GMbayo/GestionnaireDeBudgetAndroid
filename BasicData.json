@@ -1,0 +1,99 @@
+{
+  "Members" : {
+    "1" : {
+      "id" : "1",
+      "firstname" : "Guilain",
+      "lastname" : "Mbayo"
+    }
+  },
+  "Categories" : {
+    "1" : {
+      "id" : "1",
+      "name" : "Loyé"
+    },
+    "2" : {
+      "id" : "2",
+      "name" : "Loisir"
+    },
+    "3" : {
+      "id" : "3",
+      "name" : "Revenu"
+    },
+    "4" : {
+      "id" : "4",
+      "name" : "Dépense"
+    }
+  },
+  "States" : {
+    "1" : {
+      "id" : "1",
+      "name" : "Effectué"
+    },
+    "2" : {
+      "id" : "2",
+      "name" : "En attente"
+    }
+  },
+  "Transactions" : {
+    "1" : {
+      "name" : "Nouvelle souris",
+      "amount" : "20",
+      "beginDate" : "26.03.2020",
+      "endDate" : "26.03.2020",
+      "income" : false,
+      "monthly" : false,
+      "unique" : true,
+      "id_Member" : "1",
+      "id_State" : "1",
+      "id_Category" : "2"
+    },
+    "2" : {
+      "name" : "Cours de maths",
+      "amount" : "25",
+      "beginDate" : "25.03.2020",
+      "endDate" : "25.03.2020",
+      "income" : true,
+      "monthly" : false,
+      "unique" : true,
+      "id_Member" : "1",
+      "id_State" : "1",
+      "id_Category" : "3"
+    },
+    "3" : {
+      "name" : "Ménage",
+      "amount" : "150",
+      "beginDate" : "25.03.2020",
+      "endDate" : "25.03.2020",
+      "income" : false,
+      "monthly" : false,
+      "unique" : true,
+      "id_Member" : "1",
+      "id_State" : "1",
+      "id_Category" : "4"
+    },
+    "4" : {
+      "name" : "Garagiste",
+      "amount" : "850",
+      "beginDate" : "25.03.2020",
+      "endDate" : "25.03.2020",
+      "income" : false,
+      "monthly" : false,
+      "unique" : true,
+      "id_Member" : "1",
+      "id_State" : "1",
+      "id_Category" : "4"
+    },
+    "5" : {
+      "name" : "Salaire",
+      "amount" : "4500",
+      "beginDate" : "27.03.2020",
+      "endDate" : "25.03.2020",
+      "income" : true,
+      "monthly" : true,
+      "unique" : true,
+      "id_Member" : "1",
+      "id_State" : "1",
+      "id_Category" : "3"
+    }
+  }
+}
